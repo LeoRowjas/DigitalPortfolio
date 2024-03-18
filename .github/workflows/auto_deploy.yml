@@ -21,4 +21,5 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd www/rowjas.ru
-          git pull https://github.com/LeoRowjas/DigitalPortfolio.git
+          git clone https://github.com/LeoRowjas/DigitalPortfolio.git
+          git pull
