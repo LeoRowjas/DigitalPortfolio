@@ -17,8 +17,8 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         script: |
-          cd www/rowjas.ru
-          git pull
+          cd /var/www/rowjas.ru
+          git pull ${{secrets.REPO_URL}}
