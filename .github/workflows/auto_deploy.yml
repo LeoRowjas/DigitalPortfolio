@@ -20,6 +20,6 @@ jobs:
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
         passphrase: ${{ secrets.PASSPHRASE }}
-        script: 
+        script: |
           cd /var/www/rowjas.ru
           git pull ${{ secrets.REPO_URL }}
