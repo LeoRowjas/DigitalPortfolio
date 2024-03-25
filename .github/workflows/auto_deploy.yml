@@ -19,6 +19,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        script: |
-          cd /var/www/rowjas.ru
-          git pull ${{secrets.REPO_URL}}
+        script: whoami
