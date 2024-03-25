@@ -12,5 +12,6 @@ Global
 		{F7E564DF-300E-4B15-BE12-4C3CD9809ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E564DF-300E-4B15-BE12-4C3CD9809ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E564DF-300E-4B15-BE12-4C3CD9809ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E564DF-300E-4B15-BE12-4C3CD9809ADC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
