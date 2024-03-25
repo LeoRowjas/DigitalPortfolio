@@ -17,8 +17,9 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
+        key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
+        passphrase: ${{ secrets.PASSPHRASE }}
         script: |
-          cd www/rowjas.ru
-          git pull https://github.com/LeoRowjas/DigitalPortfolio.git
+          cd /var/www/rowjas.ru
+          git pull ${{ secrets.REPO_URL }}
